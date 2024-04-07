@@ -1,0 +1,154 @@
+main {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.d-flex {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  border: 1px solid #a6a6a6;
+}
+
+#catagory-bar {
+  margin-bottom: 10px;
+  border: 1px solid #a6a6a6;
+}
+
+#delete-container {
+  align-items: baseline;
+}
+
+.category-list {
+  width: 35%;
+  border: 1px solid #a6a6a6;
+  border-radius: 0.375rem;
+}
+
+#create-category {
+  width: 100%;
+  display: flex;
+  margin-bottom: 8px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.create {
+  display: flex;
+  align-items: center;
+}
+
+#create-btn {
+  border-width: 0px;
+}
+
+.category-name-input,
+.del-category-list {
+  font-size: 14px;
+  width: 50%;
+  margin-top: 5px;
+  border: 1px solid #a6a6a6;
+  border-radius: 0.625rem;
+}
+
+.friend-list {
+  height: 45rem;
+  overflow-y: auto;
+}
+
+.friend-card {
+  display: flex;
+  flex-flow: row nowrap;
+  border: 1px solid #a6a6a6;
+  border-radius: 0.625rem;
+  margin: 10px 0 10px 0;
+}
+
+.friend-card:hover {
+  background-color: #eae6e6;
+}
+
+.friend-card img {
+  width: 25%;
+  height: auto;
+  margin: 5px;
+  border: 1px solid #a6a6a6;
+  border-radius: 0.625rem;
+}
+
+.friends-body {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  /* 水平居中 */
+  align-items: center;
+  /* 垂直居中 */
+}
+
+.friends-name {
+  margin: 0 auto;
+}
+
+.add-to {
+  align-self: start;
+}
+
+.add-to :hover {
+  background-color: black;
+}
+
+.display-fliter {
+  display: flex;
+  flex-direction: column;
+}
+
+.display-info {
+  width: 18rem;
+}
+
+.card-body {
+  padding: 5px;
+}
+
+.list-group {
+  border-radius: 0px;
+}
+
+.info-image img {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.625rem;
+}
+
+.card-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* 水平居中 */
+  align-items: center;
+  /* 垂直居中 */
+}
+
+.modal-cates {
+  display: flex;
+  width: 50%;
+  height: auto;
+  padding: 0;
+  padding-inline-start: 15px;
+  margin-top: 5px;
+  border: 1px solid #a6a6a6;
+  border-radius: 50px;
+}
+
+.modal-cates:hover {
+  background-color: #e6e5e5;
+}
+
+.selected {
+  background-color: #c2dcff;
+}
